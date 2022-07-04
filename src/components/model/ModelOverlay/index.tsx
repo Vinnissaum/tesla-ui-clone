@@ -1,3 +1,4 @@
+import useWrapperScroll from '../../../hooks/useWrapperScroll';
 import { Container } from './styles';
 
 interface Props {
@@ -5,5 +6,6 @@ interface Props {
 }
 
 export default function ModelOverlay({ children }: Props) {
+  const { scrollY } = useWrapperScroll();
   return <Container>{children}</Container>;
 }

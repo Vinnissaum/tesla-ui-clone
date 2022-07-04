@@ -11,18 +11,18 @@ export const Heading = styled.div`
   margin-top: 16.5vh;
   text-align: center;
 
-  > h1{
+  > h1 {
     font-weight: 500;
     font-size: 40px;
     line-height: 48px;
-    color: #393C41;
+    color: #393c41;
   }
 
   > h2 {
     font-weight: normal;
     font-size: 14px;
     line-height: 20px;
-    color: #5C5E62;
+    color: #5c5e62;
   }
 `;
 
@@ -35,8 +35,8 @@ export const Buttons = styled.div`
   margin-bottom: 130px;
 
   > button {
-    background: #1A1720;
-    color: #FFF;
+    background: #1a1720;
+    color: #fff;
     opacity: 0.8;
 
     font-size: 12px;
@@ -51,15 +51,14 @@ export const Buttons = styled.div`
     cursor: pointer;
 
     &.white {
-      background: #FFF;
-      color: #1A1720;
+      background: #fff;
+      color: #1a1720;
       opacity: 0.65;
     }
 
     & + button {
       margin: 10px 0 0;
     }
-
   }
 
   @media (min-width: 600px) {
