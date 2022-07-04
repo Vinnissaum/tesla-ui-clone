@@ -5,8 +5,8 @@ interface Props {
   description: string;
 }
 
-function DefaultOverlayContent( {label, description}: Props ) {
-  return(
+function DefaultOverlayContent({ label, description }: Props) {
+  return (
     <Container>
       <Heading>
         <h1>{label}</h1>
@@ -15,10 +15,10 @@ function DefaultOverlayContent( {label, description}: Props ) {
 
       <Buttons>
         <button>Custom Order</button>
-        <button>Existing Inventory</button>
+        <button className="white">Existing Inventory</button>
       </Buttons>
     </Container>
-  )
+  );
 }
 
 export default DefaultOverlayContent;

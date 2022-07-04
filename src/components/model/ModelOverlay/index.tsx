@@ -1,11 +1,9 @@
 import { Container } from './styles';
 
 interface Props {
-  children: React.ReactNode
+  children: React.ReactNode;
 }
 
-export default function ModelOverlay({ children }: Props ) {
-  return (
-    <Container>{children}</Container>
-  );
+export default function ModelOverlay({ children }: Props) {
+  return <Container>{children}</Container>;
 }
