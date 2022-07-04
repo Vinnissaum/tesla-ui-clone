@@ -6,7 +6,7 @@ interface Props extends React.HTMLAttributes<HTMLDivElement> {
   overlayNode: React.ReactNode;
 }
 
-const ModelsSection = ({
+const ModelSection = ({
   modelName,
   overlayNode,
   children,
@@ -19,4 +19,4 @@ const ModelsSection = ({
   );
 };
 
-export default ModelsSection;
+export default ModelSection;
