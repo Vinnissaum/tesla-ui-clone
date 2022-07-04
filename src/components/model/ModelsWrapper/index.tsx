@@ -1,5 +1,5 @@
 import { useCallback, useRef, useState } from 'react';
-import ModelsContext, { CarModel } from '../ModelsContext';
+import ModelsContext, { CarModel } from '../../../context/ModelsContext';
 
 import { Container } from './styles';
 
@@ -25,7 +25,7 @@ const ModelsWrapper = ({ children }: Props) => {
   const getModelByName = useCallback(
     (modelName: string) =>
       registeredModels.find((model) => model.modelName === modelName) || null,
-    []
+    [registeredModels]
   );
 
   return (
