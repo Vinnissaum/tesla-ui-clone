@@ -1,6 +1,12 @@
+import { GlobalStyles } from './styles/GlobalStyles';
+import Page from './components/Page';
+
 function App() {
-  return(
-    null
+  return (
+    <>
+      <Page />
+      <GlobalStyles />
+    </>
   );
 }
 
