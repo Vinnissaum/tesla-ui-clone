@@ -1,13 +1,19 @@
+import { useTransform } from 'framer-motion';
+import useWrapperScroll from '../../hooks/useWrapperScroll';
 import { Container, Header, Logo, Footer, Burger } from './styles';
 
 export default function UniqueOverlay() {
+  const { scrollYProgress } = useWrapperScroll();
+
+  const opacity = useTransform(scrollYProgress, [0.9, 1], [0, 1]);
+
   return (
     <Container>
       <Header>
         <Logo />
         <Burger />
       </Header>
-      <Footer>
+      <Footer style={{ opacity }}>
         <ul>
           <li>
             <a href="#">UI Clone</a>
