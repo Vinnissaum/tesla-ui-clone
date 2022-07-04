@@ -1,5 +1,6 @@
 import DefaultOverlayContent from '../DefaultOverlayContent';
 import { ModelsWrapper, ModelSection } from '../model';
+import UniqueOverlay from '../UniqueOverlay';
 import { Container } from './styles';
 
 function Page() {
@@ -28,6 +29,7 @@ function Page() {
               }
             />
           ))}
+          <UniqueOverlay />
         </div>
       </ModelsWrapper>
     </Container>
