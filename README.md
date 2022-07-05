@@ -17,7 +17,7 @@ for study purpose.
 
 ## Preview
 
-<img src='./src/assets/images/preview.png'/>
+<img src='./src/assets/images/preview.gif'/>
 
 ## :rocket: Technologies
 
