@@ -3,7 +3,7 @@ import CarImages from './CarImages';
 
 export const Container = styled.div`
   .colored:nth-child(1) {
-    background-image: url(${CarImages.car1});
+    background-image: url(${CarImages.car3});
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -15,7 +15,7 @@ export const Container = styled.div`
     background-size: cover;
   }
   .colored:nth-child(3) {
-    background-image: url(${CarImages.car3});
+    background-image: url(${CarImages.car1});
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

@@ -40,7 +40,7 @@ export const Burger = styled(BurgerSVG)`
 
 export const Footer = styled(motion.footer)`
   position: fixed;
-  bottom: 0;
+  bottom: -0;
   right: 0;
   left: 0;
 
@@ -61,7 +61,7 @@ export const Footer = styled(motion.footer)`
 
       a {
         text-decoration: none;
-        color: #393c41;
+        color: #fff;
 
         &:hover {
           color: #000;
